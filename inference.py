@@ -181,7 +181,7 @@ if __name__ == '__main__':
     processed_indices = []
     batch_size = int(config.batch_size)
     
-    for i in range(0, 5, batch_size):
+    for i in range(0, len(dataset), batch_size):
         batch = dataset[i: i+batch_size]
         try:
             t0 = time.time()
