@@ -9,7 +9,7 @@ full_parameter_training: false
 gradient_accumulation_steps: 4
 gradient_checkpointing: true
 hf_repo_id: farbodtavakkoli/scalarlm-test
-hf_upload_token: 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
+hf_upload_token: 
 lora_alpha: 16
 lora_dropout: 0.05
 optimizer_type: adamw
