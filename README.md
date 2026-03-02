@@ -1,4 +1,4 @@
-# OTel Family of Models
+# OTel Family of Models — LLM, Embedding & Reranker Suite
 
 <p align="center">
   <a href="https://huggingface.co/farbodtavakkoli">🤗 HuggingFace</a> •
