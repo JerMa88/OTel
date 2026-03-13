@@ -32,6 +32,7 @@ All models are available on [HuggingFace](https://huggingface.co/farbodtavakkoli
 |-------|------------|------------|
 | OTel_LLM_270M_IT | 270M | gemma-3-270m-it |
 | OTel_LLM_0.6B_IT | 0.6B | Qwen3-0.6B |
+| OTel_LLM_1.2B_IT | 1.2B | LFM2.5-1.2B-Instruct |
 | OTel_LLM_1B_IT | 1B | gemma-3-1b-it |
 | OTel_LLM_1.7B_IT | 1.7B | Qwen3-1.7B |
 | OTel_LLM_3B_IT | 3B | Mistral-3-3B |
@@ -45,6 +46,7 @@ All models are available on [HuggingFace](https://huggingface.co/farbodtavakkoli
 | OTel_LLM_14B_IT | 14B | Qwen3-14B |
 | OTel_LLM_20B_IT | 20B | GPT-OSS-20B |
 | OTel_LLM_20B_Reasoning | 20B | GPT-OSS-20B |
+| OTel_LLM_24B_IT | 24B | LFM2-24B-A2B |
 | OTel_LLM_27B_IT | 27B | gemma-3-27b-it |
 | OTel_LLM_32B_IT | 32B | OLMo-3-32B |
 
@@ -83,14 +85,14 @@ source scalarlm_env/bin/activate
 # Install dependencies
 pip3 install scalarlm pyyaml python-dotenv
 
-# Set API endpoint (provided separately)
+# Set deployment endpoint
 export SCALARLM_API_URL={your_endpoint_url}
 ```
 
 ### Training
 
 ```bash
-# Train a language model (default: Qwen3 format)
+# Train a language model
 python3 train.py --data_path data/llm_training_sample.json --model_type qwen3
 
 # Train with different model architectures
