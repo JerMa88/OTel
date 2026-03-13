@@ -191,7 +191,7 @@ scalarlm logs --model={model_id}
 
 ## 🌐 Infrastructure
 
-- **Compute**: TensorWave for AMD GPUs and Azure for Nvidia GPUs
+- **Compute**: TensorWave for AMD GPUs and Azure for NVIDIA GPUs
 - **Framework**: ScalarLM (GPU-agnostic)
 
 ## Citation
