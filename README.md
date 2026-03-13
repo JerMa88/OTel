@@ -194,6 +194,17 @@ scalarlm logs --model={model_id}
 - **Compute**: TensorWave for AMD GPUs and Azure for Nvidia GPUs
 - **Framework**: ScalarLM (GPU-agnostic)
 
+## Citation
+
+```bibtex
+@misc{otel2026,
+  title={OTel: Open Telco AI Models},
+  author={Tavakkoli, Farbod and Diamos, Gregory and Paulk, Roderic and Terrazas, Jorden},
+  year={2026},
+  url={https://huggingface.co/farbodtavakkoli}
+}
+```
+
 ## 📬 Contact
 
 If you have any technical questions, please feel free to reach out to farbod.tavakkoli@att.com or farbodtavakoli@gmail.com
