@@ -1,0 +1,37 @@
+[
+  {
+    "prompt_idx": 0,
+    "output_text": "",
+    "expected_completion": "Most existing traffic prediction methods are mainly based on short-to-medium-term prediction, while long-term prediction is more difficult due to the more complex spatio-temporal dependencies and more uncertain factors. Historical information may not have as much impact on short-to-medium-term prediction methods, and it may need to consider additional supplementary information.",
+    "score": 0,
+    "wall_time": 8.31305980682373
+  },
+  {
+    "prompt_idx": 1,
+    "output_text": "",
+    "expected_completion": "The step where Snipuzz converts responses into feature vectors is line 3.",
+    "score": 0,
+    "wall_time": 7.179216384887695
+  },
+  {
+    "prompt_idx": 2,
+    "output_text": "",
+    "expected_completion": "MmWave technology is one of the key enabling technologies for the future SAGS network for 6G.",
+    "score": 0,
+    "wall_time": 11.52014446258545
+  },
+  {
+    "prompt_idx": 3,
+    "output_text": " \nTraffic engineering can refer to a branch of civil engineering, such as transportation engineering, which deals with the planning, design, and management of transportation systems. This includes topics such as traffic flow, traffic signals, and urban planning. Traffic engineering is also used in other areas such as construction engineering, where the focus is on the design and management of construction projects and infrastructure. Traffic engineering can also be applied to other engineering fields such as civil engineering, where it deals with the design and management of transportation systems. Traffic engineering is an essential component of transportation engineering and is used to improve traffic flow, reduce congestion, and enhance safety in transportation systems.",
+    "expected_completion": "Transportation engineering",
+    "score": 1,
+    "wall_time": 29.860260486602783
+  },
+  {
+    "prompt_idx": 4,
+    "output_text": "",
+    "expected_completion": "The topology's security is fundamental to the whole P2P network because it provides essential services used by other components. Threats that affect the topology have to do with denial of essential services, such as denial-of-service (DoS) and distributed denial-of-service (DDoS), man-in-the-middle attacks, and routing attacks.",
+    "score": 0,
+    "wall_time": 9.380434036254883
+  }
+]
